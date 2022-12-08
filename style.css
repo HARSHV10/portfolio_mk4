@@ -1,0 +1,199 @@
+body{
+    /* margin-top: 5px; */
+}
+
+.intro{
+
+    width: 100%;
+    height: 100%;
+    background: url(./media/5a1d943b8fa99e448b035341556a171c.gif);
+    border-radius: 0px 0px 50px 50px ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.introtxt{
+font-family: 'Zen Dots';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 58px;
+text-align: center;
+color:#ffff; 
+margin: 30px;
+    padding: 100px;
+    text-align: center;
+
+}
+
+.avatar{
+    padding: 50px;
+    height: 80%;
+    border-radius: 10000px;
+
+}
+
+.skill{
+    /* width: 100%; */
+    /* height: 700px; */
+}
+.animate{
+    font-family: 'Zen Dots';
+    font-weight: bolder;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4rem;
+    line-height: 58px;
+    text-align: center;
+    margin: 30px;
+        /* padding: 100px; */
+        text-align: center;
+        background-image: url("./media/DemandingSnarlingGentoopenguin-max-1mb.gif");
+        background-size: cover;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+}
+
+.textBox{
+    margin-left: 150px;
+    margin-right: 150px;
+    /* width: 100%; */
+    /* height: 100%; */
+    margin-bottom: 50px;
+    color: aliceblue;
+    border-radius: 50px;
+    padding: 30px;
+    font-size:30px ;
+    text-align: center;
+    background-image: url("./media/3xBO.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.skltxt{
+    font-family: 'Zen Dots';
+    font-weight: bolder;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 7rem;
+    line-height: 58px;
+    text-align: center;
+    margin: 20px;
+    margin-top: 12.5rem;
+        padding: 30px;
+        
+        text-align: center;
+
+        background-image: url("./media/download1.gif");
+        background-size: cover;
+        background-position: 100px;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+}
+
+.skill-box{
+    background-image: url(./media/download1.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px;
+    /* border: solid;    */
+    /* box-shadow: 10px 10px 8px 10px #888888; */
+    border-radius: 100px;
+}
+
+.skld{
+    color:white ;
+    padding-left: 5rem;
+    text-align: left;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif */
+    margin-bottom: 30px;
+    font-weight: 700;
+    animation-name: "aranim";
+
+}
+.subtxt{
+    text-align: center;
+
+    color: aliceblue;
+    font-family: 'Zen Dots';
+}
+
+
+@keyframes hori{
+    form{width: 0%;}
+    to{width:100%;}
+}
+
+hr{
+    width: 10%;
+    animation-name: hori;
+    animation-duration: 2s;
+}
+
+.a_txt{
+    text-align: center;
+}
+
+
+.aboutme{
+    background-color: #CEE7F3;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 6rem;
+    border-radius: 50px;
+    /* margin: 20px; */
+}
+
+
+
+
+@media (max-width:610px) {
+    .avatar{
+      
+        height: 50%;
+        margin-left: 5px;
+    }    
+    .textBox{
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 20px;
+        align-items: center;
+    }
+
+
+   .introtxt{
+    margin-bottom: 0px;
+    padding: 0px;
+    padding-bottom: 10px;
+   }
+   .a_txt{
+    text-align: center;
+   }
+
+   .intro{
+    height: 50%;
+   }
+   .skltxt{
+    padding-top: 70px;
+    margin: auto;
+    width: 100%;
+    font-size: 70px;
+   }
+  .aboutme{
+    padding: 0px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .skill-box{
+    width: 90%;
+    margin-left: 5%;
+    /* margin-left: 50px;
+    margin-right: 50px; */
+  }
+  .skld{
+    padding-left: 0px;
+  }
+
+   
+ 
+}
