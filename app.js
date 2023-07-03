@@ -6,13 +6,17 @@ $("#aboutme").html(text);
 
 var skill ='';
 
-const skl=["-> C/Cpp",
+const skl=["C/Cpp",
+"React",
+           "Node",
+           "Express",
+           "MongoDb",
+           "SQL",
 "Python",
 "Javascript",
 "Jquery",
 "Html/Hmtl3",
 "css/css3",
-"Kotlin"
 ]
 ok=`s`;
 const html_data=// using the foreach function for the same 
